@@ -1,3 +1,37 @@
 body {
   font-family: sans-serif;
 }
+
+input {
+  border-radius: 9px;
+  border: none;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+}
+
+button.hover {
+  background-color: red;
+}
+
+.input-area {
+  background-color: cyan;
+  padding: 10px;
+  margin: 10px 5px;
+}
+
+.incomplete-area {
+  background-color: orange;
+  padding: 10px;
+  margin: 10px 5px;
+  min-height: 200pt;
+}
+
+.complete-area {
+  background-color: greenyellow;
+  padding: 10px;
+  margin: 10px 5px;
+  min-height: 200pt;
+}
