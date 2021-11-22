@@ -3,35 +3,59 @@ body {
 }
 
 input {
-  border-radius: 9px;
+  border-radius: 16px;
   border: none;
+  padding: 6px 16px;
+  outline: none;
 }
 
 button {
-  border-radius: 10px;
+  border-radius: 16px;
   border: none;
+  padding: 4px 16px;
 }
 
-button.hover {
-  background-color: red;
+button:hover {
+  background-color: #ff7fff;
+  color: #fff;
+  cursor: pointer;
 }
 
 .input-area {
-  background-color: cyan;
+  background-color: #c1ffff;
+  width: 400px;
   padding: 10px;
   margin: 10px 5px;
 }
 
 .incomplete-area {
-  background-color: orange;
+  background-color: #c6ffe2;
+  width: 400px;
   padding: 10px;
   margin: 10px 5px;
   min-height: 200pt;
 }
 
 .complete-area {
-  background-color: greenyellow;
+  background-color: #ffffe0;
+  width: 400px;
   padding: 10px;
   margin: 10px 5px;
   min-height: 200pt;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+}
+
+.item-topic {
+  margin-right: 8px;
 }
